@@ -1,13 +1,14 @@
-# AI Compliance & Security Architecture Portfolio
+# AI Compliance & Security Architecture
 
-A collection of my hands-on work translating complex regulatory frameworks (GDPR, SOC 2, ISO 27001, PDPL) into machine-readable logic and auditing AI platform infrastructure.
+A technical repository demonstrating how to map complex regulatory frameworks (EU AI Act, GDPR, SOC 2, DORA) into actionable engineering logic and secure infrastructure.
 
-## Strategic Core Competencies
-* **Framework Engineering:** Algorithmic mapping of regulatory controls into strict logic for automated auditing.
-* **Infrastructure Security:** Diagnosing IDOR vulnerabilities, session state failures, and backend data sync bugs.
-* **AI Engine Guardrails:** Designing vector search perimeters, noise-filtering architectures, and text chunking logic for enterprise contracts.
-
-## Repository Structure
-* `/Logic_Maps`: Regulatory frameworks translated into structured, system-ready data architectures.
-* `/Case_Studies`: Analytical breakdowns of my technical platform audits and structural engineering fixes.
+### Repository Contents
+* `/Logic_Maps`: Regulatory frameworks translated into system-ready data architectures.
+* `/Case_Studies`: Analytical breakdowns of technical platform audits and structural fixes.
 * `/System_Architecture`: Technical blueprints and security infrastructure evaluations.
+* `/Compliance-as-Code`: Machine-readable security and compliance guardrails (YAML) for CI/CD pipelines.
+
+### Objective
+This repository serves as a proof-of-concept for bridging the gap between legal compliance requirements and technical implementation. I am currently open to consulting or full-time roles focused on AI governance and secure infrastructure.
+
+[Contact me for professional inquiries](https://www.linkedin.com/in/saba-j-khan/)
