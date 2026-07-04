@@ -1,1 +1,1 @@
-# Regulatory Logic Maps: GDPR, SOC 2, ISO, PDPL.
+# Regulatory Logic Maps: GDPR, SOC 2, ISO, PDPL
