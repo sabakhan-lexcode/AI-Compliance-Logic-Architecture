@@ -1,0 +1,28 @@
+# Governance-as-Code: Compliance Enforcement Manifest
+# This manifest defines the architectural guardrails required by EU AI Act & GDPR.
+# It serves as the single source of truth for the system's compliance posture.
+
+metadata:
+  version: "1.0.0"
+  framework_alignment: 
+    - "EU_AI_Act_High_Risk"
+    - "GDPR_Art_32"
+    - "ISO_27001_A11"
+
+guardrails:
+  # Enforces logical access control (Prevents IDOR/Unauthorized access)
+  access_control:
+    require_sso: true
+    session_timeout_minutes: 30
+    enforce_ownership_check: true 
+
+  # Enforces data sovereignty (GDPR alignment)
+  data_residency:
+    allowed_regions: ["EU-West-1", "EU-Central-1"]
+    require_tenant_isolation: true
+    encryption_at_rest: "AES_256"
+
+  # Enforces auditability (DORA alignment)
+  logging:
+    audit_retention_days: 365
+    log_level: "security_and_compliance_only"
